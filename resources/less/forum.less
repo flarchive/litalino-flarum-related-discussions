@@ -1,0 +1,81 @@
+.wraprelated {
+  margin-bottom: 2rem;
+
+  .DiscussionListItem-title-related {
+      padding-top: 0rem;
+      padding-bottom: 0rem;
+      font-weight: bold;
+      color: var(--error-color);
+      i {
+          margin-right: 1rem;
+          color: var(--error-color);
+      }
+  }
+
+  .related-discussions {
+
+    .DiscussionListItem-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    
+    }
+    .DiscussionListItem-author {
+      margin-left: 0;
+      margin-right: 10px;
+      @media @phone {
+        margin-left: 15px;
+        padding: 5px 0;
+      }
+      @media (max-width: 500px) {
+        
+      }
+    }
+    .DiscussionListItem-main {
+      margin-right: 0;
+      width: 70%;
+      @media (max-width: 992px) {
+        width: 60%;
+        padding: 5px 0;
+      }
+      @media (max-width: 500px) {
+        width: 100%;
+        display: block;
+        padding: 0px 10px;
+      }
+      .DiscussionListItem-info {
+        .item-terminalPost {
+          .replied-on {
+            margin-left: 5px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    .DiscussionListItem-count {
+      width: auto;
+      background: transparent;
+      margin-right: 0px;
+      @media (max-width: 500px) {
+        float: unset;
+        margin-left: 50px;
+        vertical-align: top;
+      }
+    }
+    /*
+    .related-discussions a:link, .navigation-div a:visited {
+      text-decoration: none;
+    }
+    a.DiscussionListItem-main.related {
+      width: auto;
+    }
+    a.DiscussionListItem-main.related h3.DiscussionListItem-title {
+      margin-left: 0;
+    }*/
+
+  }
+
+  .separator-related {
+    list-style: none;
+  }
+
+}
