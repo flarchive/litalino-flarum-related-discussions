@@ -1,0 +1,79 @@
+{
+  "name": "litalino/flarum-related-discussions",
+  "description": "Add Related discussions",
+  "keywords": [
+      "flarum",
+      "flarum extension",
+      "related discussions"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+      "flarum/core": "^1.8.4"
+  },
+  "authors": [
+      {
+          "name": "litalino",
+          "email": "info@khatvongsong.vn",
+          "role": "Developer"
+      }
+  ],
+  "support": {
+    "issues": "https://github.com/Litalino/flarum-related-discussions/issues",
+    "source": "https://github.com/Litalino/flarum-related-discussions",
+    "forum": "https://discuss.flarum.org/d/1000000-flarum-related-discussions"
+  },
+  "autoload": {
+      "psr-4": {
+          "Litalino\\RelatedDiscussions\\": "src/"
+      }
+  },
+  "homepage": "https://khatvongsong.vn",
+  "extra": {
+      "flarum-extension": {
+        "title": "Related Discussions",
+        "category": "feature",
+        "icon": {
+          "name": "fas fa-indent",
+          "backgroundColor": "blue",
+          "color": "white"
+        }
+      },
+      "flarum-cli": {
+        "modules": {
+          "admin": true,
+          "forum": true,
+          "js": true,
+          "jsCommon": false,
+          "css": true,
+          "locale": true,
+          "gitConf": true,
+          "githubActions": true,
+          "prettier": true,
+          "typescript": false,
+          "bundlewatch": false,
+          "backendTesting": false,
+          "editorConfig": true,
+          "styleci": true
+        }
+      }
+  },
+  "repositories": [
+      {
+          "type": "path",
+          "url": "../../*/*"
+      }
+  ],
+  "require-dev": {
+    "flarum/phpstan": "*"
+  },
+  "scripts": {
+      "analyse:phpstan": "phpstan analyse",
+      "clear-cache:phpstan": "phpstan clear-result-cache"
+  },
+  "scripts-descriptions": {
+      "analyse:phpstan": "Run static analysis"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
