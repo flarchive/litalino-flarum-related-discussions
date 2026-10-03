@@ -2,13 +2,14 @@
 
 > **Read-only archive of released versions of litalino/flarum-related-discussions.** Not for installation: use [Packagist](https://packagist.org/packages/litalino/flarum-related-discussions) or the [upstream repository](https://github.com/Litalino/flarum-related-discussions).
 
-**0** versions archived · Latest: [`1.1.0`](https://github.com/flarchive/litalino-flarum-related-discussions/tree/archive/v1.1.0) · License: `MIT` · Flarum: `^1.8.4`
+**2** versions archived · Latest: [`1.1.0`](https://github.com/flarchive/litalino-flarum-related-discussions/tree/archive/v1.1.0) · License: `MIT` · Flarum: `^1.8.4`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0` | 2024-01-13 | `^1.8.4` | [Browse](https://github.com/flarchive/litalino-flarum-related-discussions/tree/archive/v1.0.0) |
+| `1.1.0` | 2024-07-04 | `^1.8.4` | [Browse](https://github.com/flarchive/litalino-flarum-related-discussions/tree/archive/v1.1.0) |
 
 Catalog entry: [packages/litalino-flarum-related-discussions.json](https://github.com/flarchive/archive-index/blob/main/packages/litalino-flarum-related-discussions.json)
 
